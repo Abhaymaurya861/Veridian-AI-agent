@@ -1,0 +1,212 @@
+[
+  {
+    "id": "TK-1042",
+    "title": "VPN credential expired",
+    "requester": {
+      "name": "R. Verma",
+      "email": "r.verma@veridiancorp.example",
+      "department": "Engineering"
+    },
+    "category": "Network & Remote Access",
+    "priority": "P3",
+    "status": "Resolved",
+    "isClosed": true,
+    "resolutionSummary": "Employee renewed 90-day VPN credentials per KB-02 policy. Access verified.",
+    "policyRef": { "id": "KB-02", "title": "VPN Access Policy" },
+    "riskLevel": "LOW",
+    "riskScore": 15,
+    "assignedTo": "IT Support Desk",
+    "createdAt": "2026-09-20T09:15:00.000Z",
+    "resolvedAt": "2026-09-20T09:30:00.000Z",
+    "slaRemainingMinutes": 0
+  },
+  {
+    "id": "TK-1043",
+    "title": "Laptop replacement (3.2 yrs old)",
+    "requester": {
+      "name": "S. Iyer",
+      "email": "s.iyer@veridiancorp.example",
+      "department": "Product"
+    },
+    "category": "Hardware & Asset Management",
+    "priority": "P2",
+    "status": "Approved — pending fulfillment",
+    "isClosed": false,
+    "resolutionSummary": "Eligible under KB-03 (>3 years service). Finance sign-off obtained for early replacement outside standard 4-year cycle per Asset Management Policy. Awaiting hardware dispatch.",
+    "policyRef": { "id": "KB-03", "title": "Laptop Replacement Policy" },
+    "riskLevel": "MEDIUM",
+    "riskScore": 40,
+    "assignedTo": "IT Asset Desk",
+    "createdAt": "2026-09-21T08:30:00.000Z",
+    "resolvedAt": null,
+    "slaRemainingMinutes": 180
+  },
+  {
+    "id": "TK-1044",
+    "title": "Non-catalog software request",
+    "requester": {
+      "name": "A. Khan",
+      "email": "a.khan@veridiancorp.example",
+      "department": "Analytics"
+    },
+    "category": "Software & Security",
+    "priority": "P3",
+    "status": "Pending Security review",
+    "isClosed": false,
+    "resolutionSummary": "Non-catalog software submitted for security vetting per KB-04. Security review turnaround 3-5 business days.",
+    "policyRef": { "id": "KB-04", "title": "Software Installation Requests Policy" },
+    "riskLevel": "MEDIUM",
+    "riskScore": 50,
+    "assignedTo": "IT Security Review Board",
+    "createdAt": "2026-09-21T11:00:00.000Z",
+    "resolvedAt": null,
+    "slaRemainingMinutes": 1440
+  },
+  {
+    "id": "TK-1045",
+    "title": "Mailbox quota increase",
+    "requester": {
+      "name": "P. Joshi",
+      "email": "p.joshi@veridiancorp.example",
+      "department": "Finance"
+    },
+    "category": "Productivity & Storage",
+    "priority": "P3",
+    "status": "Approved at 35GB",
+    "isClosed": true,
+    "resolutionSummary": "Manager approval verified per KB-06. Mailbox quota increased from default 25GB to 35GB (below 50GB cap).",
+    "policyRef": { "id": "KB-06", "title": "Email Mailbox Quota Policy" },
+    "riskLevel": "LOW",
+    "riskScore": 20,
+    "assignedTo": "Email Infrastructure Team",
+    "createdAt": "2026-09-21T13:45:00.000Z",
+    "resolvedAt": "2026-09-21T15:00:00.000Z",
+    "slaRemainingMinutes": 0
+  },
+  {
+    "id": "TK-1046",
+    "title": "Printer paper jam, floor 2",
+    "requester": {
+      "name": "M. Das",
+      "email": "m.das@veridiancorp.example",
+      "department": "Operations"
+    },
+    "category": "Office Infrastructure",
+    "priority": "P4",
+    "status": "Resolved",
+    "isClosed": true,
+    "resolutionSummary": "Print spooler restarted and roller assembly cleared per KB-05 SOP.",
+    "policyRef": { "id": "KB-05", "title": "Printer Troubleshooting SOP" },
+    "riskLevel": "LOW",
+    "riskScore": 10,
+    "assignedTo": "Office IT Support",
+    "createdAt": "2026-09-21T14:10:00.000Z",
+    "resolvedAt": "2026-09-21T14:40:00.000Z",
+    "slaRemainingMinutes": 0
+  },
+  {
+    "id": "TK-1047",
+    "title": "Home office equipment request",
+    "requester": {
+      "name": "K. Singh",
+      "email": "k.singh@veridiancorp.example",
+      "department": "Design"
+    },
+    "category": "Workplace Tech & Finance",
+    "priority": "P3",
+    "status": "Pending Finance",
+    "isClosed": false,
+    "resolutionSummary": "Employee verified working remotely >3 days/week. Manager signed off. Awaiting Finance processing per KB-10.",
+    "policyRef": { "id": "KB-10", "title": "Work-From-Home Equipment Policy" },
+    "riskLevel": "LOW",
+    "riskScore": 25,
+    "assignedTo": "Finance Operations Desk",
+    "createdAt": "2026-09-22T09:20:00.000Z",
+    "resolvedAt": null,
+    "slaRemainingMinutes": 360
+  },
+  {
+    "id": "TK-1048",
+    "title": "Phishing email reported",
+    "requester": {
+      "name": "T. Rao",
+      "email": "t.rao@veridiancorp.example",
+      "department": "Sales"
+    },
+    "category": "Cybersecurity",
+    "priority": "P1",
+    "status": "Escalated to Security — under investigation",
+    "isClosed": false,
+    "resolutionSummary": "Reported to security@veridian-corp.example per KB-09. Not forwarded to employees. Sender domain blocked at email gateway.",
+    "policyRef": { "id": "KB-09", "title": "Security Incident Reporting Protocol" },
+    "riskLevel": "CRITICAL",
+    "riskScore": 95,
+    "assignedTo": "Veridian Security Team",
+    "createdAt": "2026-09-22T10:05:00.000Z",
+    "resolvedAt": null,
+    "slaRemainingMinutes": 20
+  },
+  {
+    "id": "TK-1049",
+    "title": "Password reset",
+    "requester": {
+      "name": "V. Nambiar",
+      "email": "v.nambiar@veridiancorp.example",
+      "department": "Customer Support"
+    },
+    "category": "Identity & Access",
+    "priority": "P3",
+    "status": "Resolved",
+    "isClosed": true,
+    "resolutionSummary": "Employee completed self-service password reset via portal per KB-01.",
+    "policyRef": { "id": "KB-01", "title": "Password Reset Policy" },
+    "riskLevel": "LOW",
+    "riskScore": 10,
+    "assignedTo": "Self-Service Portal",
+    "createdAt": "2026-09-22T11:40:00.000Z",
+    "resolvedAt": "2026-09-22T11:45:00.000Z",
+    "slaRemainingMinutes": 0
+  },
+  {
+    "id": "TK-1050",
+    "title": "Admin access request",
+    "requester": {
+      "name": "J. Fernandes",
+      "email": "j.fernandes@veridiancorp.example",
+      "department": "Engineering"
+    },
+    "category": "Identity & Access",
+    "priority": "P2",
+    "status": "Rejected — no business justification provided",
+    "isClosed": true,
+    "resolutionSummary": "Rejected per Veridian security controls: administrative server access requires substantiated business justification and departmental approval.",
+    "policyRef": { "id": "KB-09", "title": "Security Incident Reporting Protocol" },
+    "riskLevel": "HIGH",
+    "riskScore": 85,
+    "assignedTo": "IT Security Review Board",
+    "createdAt": "2026-09-22T14:15:00.000Z",
+    "resolvedAt": "2026-09-22T15:30:00.000Z",
+    "slaRemainingMinutes": 0
+  },
+  {
+    "id": "TK-1051",
+    "title": "Guest Wi-Fi issued",
+    "requester": {
+      "name": "L. Menon",
+      "email": "l.menon@veridiancorp.example",
+      "department": "Human Resources"
+    },
+    "category": "Network & Visitors",
+    "priority": "P4",
+    "status": "Resolved",
+    "isClosed": true,
+    "resolutionSummary": "Guest Wi-Fi 24-hour pass generated at front-desk kiosk per KB-07. No ticket required.",
+    "policyRef": { "id": "KB-07", "title": "Guest Wi-Fi Access Policy" },
+    "riskLevel": "LOW",
+    "riskScore": 5,
+    "assignedTo": "Front-Desk Kiosk",
+    "createdAt": "2026-09-23T08:50:00.000Z",
+    "resolvedAt": "2026-09-23T08:52:00.000Z",
+    "slaRemainingMinutes": 0
+  }
+]

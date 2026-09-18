@@ -1,0 +1,14 @@
+{
+  "name": "nexait-support-agent",
+  "version": "1.0.0",
+  "description": "Enterprise Employee IT Support Agent with policy grounding, follow-ups, automated resolution, risk escalation, and compliance audit trail.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/agent.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

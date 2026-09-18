@@ -1,0 +1,82 @@
+[
+  {
+    "id": "EMP-01",
+    "name": "Aditi Sharma",
+    "email": "aditi.sharma@veridiancorp.example",
+    "role": "Senior Software Engineer",
+    "department": "Engineering",
+    "avatar": "AS",
+    "machineId": "VER-ENG-381",
+    "os": "macOS Sonoma"
+  },
+  {
+    "id": "EMP-02",
+    "name": "Vikram Chawla",
+    "email": "vikram.chawla@veridiancorp.example",
+    "role": "Account Executive",
+    "department": "Sales",
+    "avatar": "VC",
+    "machineId": "VER-SLS-210",
+    "os": "Windows 11"
+  },
+  {
+    "id": "EMP-03",
+    "name": "Karan Mehta",
+    "email": "karan.mehta@veridiancorp.example",
+    "role": "Marketing Specialist",
+    "department": "Marketing",
+    "avatar": "KM",
+    "machineId": "VER-MKT-104",
+    "os": "Windows 11"
+  },
+  {
+    "id": "EMP-05",
+    "name": "Sanjay Oberoi",
+    "email": "sanjay.oberoi@veridiancorp.example",
+    "role": "Product Manager",
+    "department": "Product",
+    "avatar": "SO",
+    "machineId": "VER-PRD-512",
+    "os": "macOS Sequoia"
+  },
+  {
+    "id": "EMP-07",
+    "name": "Farhan Ali",
+    "email": "farhan.ali@veridiancorp.example",
+    "role": "Product Designer",
+    "department": "Design",
+    "avatar": "FA",
+    "machineId": "VER-DSG-409",
+    "os": "macOS Sonoma"
+  },
+  {
+    "id": "EMP-08",
+    "name": "Ananya Reddy",
+    "email": "ananya.reddy@veridiancorp.example",
+    "role": "Legal Counsel",
+    "department": "Legal",
+    "avatar": "AR",
+    "machineId": "VER-LEG-108",
+    "os": "Windows 11 Enterprise"
+  },
+  {
+    "id": "EMP-09",
+    "name": "Rohit Desai",
+    "email": "rohit.desai@veridiancorp.example",
+    "role": "Financial Controller",
+    "department": "Finance",
+    "avatar": "RD",
+    "machineId": "VER-FIN-303",
+    "os": "Windows 11 Enterprise"
+  },
+  {
+    "id": "EMP-15",
+    "name": "Rahul Menon",
+    "email": "rahul.menon@veridiancorp.example",
+    "role": "Operations Analyst",
+    "department": "Operations",
+    "avatar": "RM",
+    "machineId": "VER-OPS-619",
+    "os": "Windows 11"
+  }
+]
